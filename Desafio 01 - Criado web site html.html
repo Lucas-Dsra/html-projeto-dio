@@ -1,0 +1,107 @@
+<html> 
+    <head>
+        <title>Aprendendo <abbr>HTML</abbr></title>
+    </head>
+    <body>
+
+        <h1>Aprendendo sobre <abbr>HTML</abbr></h1>
+        <hr/>
+
+        <h2 id="indice">índice de temas</h2>
+
+        <ul> 
+            <li><a href="#atributosETags">Tags e seus atributos</a></li>
+            <li><a href="#texto">Textos <abbr>HTML</abbr></a></li>
+            <li><a href="#Links">Links</a></li>
+            <li><a href="#idEAcoragem"> id como complemento de ancoragem com o atributo href</a></li>
+
+        </ul>
+
+
+        <h2 id="atributosETags">Tags e seus atributos</h2>
+        <small><a href="#indice">ir para índice</a></small>
+
+        <p>As <strong>tags</strong> são parte fundamentas para o <mark><strong><abbr>HTML</abbr></strong></mark>, sendo que sem elas não podemos realizar nada no <mark><strong>HTML</strong></mark>, mas a dúvida principal é, o que são as tags? As tags são instruções as quais passamos ao navegador, demostrando a estrutura do texto que será utilizada, e assim podemos definir: títulos, parágrafos, imagem, links e <abbr>etc..</abbr></p>
+        <p>Quando falamos sobre os atributos, podemos dizer que eles são meio que são características especias que aplicamos a uma tag especifica, por exemplo o atributo "href" com ele junto com a tag "a" podemos direcionar o usuário para links específicos, ou para uma parte do site, que queremos que ele vá automaticamente ao clicar, podendo ainda ser definido se a página vai ser carregada em um nova guia ou não, com outro atributo o "target"</p>
+        <p>No final dessa página está disponíveis um site para vocês consultarem as tags <strong>HTML</strong>.</p>
+        
+
+        <h2 id="texto">Textos <abbr>XHTML</abbr></h2>
+        <small><a href="#indice">ir para Índice</a></small>
+
+        <p>No <strong><i><abbr>HTML</abbr></i></strong> é importante termos um texto bem estruturado, para isso temos as tags de texto, vou fazer uma lista abaixo de algumas:</p>
+
+        <h3>Elementos de texto <abbr>HTML</abbr></h3>
+
+        <ul>
+            <li>h1 (O primeiro titulo deo seu texto</li>
+            <li>h2 (Seria  subtitulo)</li>
+            <li>h3..h6(O subtitulo do subtitulo, ainda temos mais, as tags de titulo vão até h6)</li>
+            <li>p (tag destinada para marcar paragrafo)</li>
+            <li>blockquote(tag destinada para citações)</li>
+
+        </ul>
+        <p>Com essas tags já podemos ter um texto bem estruturado, podemos dizer que já podemos fazer nosso primeiro texto <i><abbr>HTML</abbr></i> somente com esses tributos.</p>
+
+        <h2 id="listaOrdenadasENãoOrdenadas"></h2>
+
+        <p>Algo que é bem comum em nosso cotidiano é fazer listas, e sim é possível realizar lista no <mark><abbr>HTML</abbr></mark>, mas ai temos uma peculiaridade. No caso temos dois tipos de listas, ordenadas e não ordenadas. A lista ordenadas são lista que temos um certo tipo de numeração, exemplo:</p>
+
+        <ol>
+            <li>Feijão</li>
+            <li>Arroz</li>
+            <li>Macarrão</li>
+        </ol>
+
+        <p>Ainda assim também e possível fazer uma lista dentro de um outra lista, e para que usaríamos isso, para criar subtópicos</p>
+        <p>Exemplo:</p>
+
+        <ol>
+            <li>HTML
+                <ol>
+                    <li>Básicos</li>
+                    <li>Tags</li>
+                </ol>
+            </li>
+            <lI>CSS</lI>
+            <li>JAVA</li>
+        </ol>
+    
+        <small><a href="#indice">ir para índice</a></small>
+
+        <h2 id="Links">Links</h2>
+
+        <p>Para gerar um link é necessário utilizar um tag especifica, essa tag seria a tag 'a', a famosa tag ancora. Com ela podemos colocar um link em nossa tag, como o exemplo abaixo, vamos direcionar o usuário para o site da dio.me</p>
+            <strong><p>Exemplo:</p></strong>
+
+            <small><a href="https://www.dio.me/">ir para site da dio.me</a></small>
+          
+            <p> Mas para funcionar ainda precisamos colocar um atributo nesse tag, o atributo 'href' a qual é possível colocar dentro das aspas, um link para outro site pro exemplo, ou direcionarmos para um documento html por exemplo.</p>
+            <p>Ainda temos mais um atributo importante, o atributo 'target'. Com ele temos algumas opções que são mais utilizadas
+                o target "_blank" a qual direciona o usuário em um nova guia web e target "parent" a qual direciona o usuário para um outra pagina só que na mesma guia.
+            <p>Por fim temos o atributo 'title" que coloca um balãozinho na em uma frase. Veja o Exemplo abaixo</p>
+
+            <strong><a title="O balãozinho que falei">coloque o mouse aqui, é espere um pouco</a></strong>
+
+            <h2 id="idEAncoragem">Id como complemento de ancoragem com o atributo href</h2>
+
+            <p>Nesse tópico vamos ver um complemento para a tag de ancoragem (a), vamos utilizar o id e o href juntos para criar um forma de direcionar o usuário para certa parte de nossa página
+                Como deve ser feito? É algo bem simples, no texto a qual o vai direcionar o usuário para outra parte do site deverá ser utilizado o atributo 'href¨#NomeDoID'  (precisa conter o #),
+                e na parte do texto em qual o usuário vai ser direcionado ultimamos a atributo id, só que agora não precisamos colocar o '#'
+            </p>
+
+            <p><del>Um exemplo simples é o índice de tkmas</del></p>
+            <p>Correção: Um exemplo simples é o índice de temas</p>
+
+            <small><a href="#indice">clique aqui para ir ao índice e verificar a funcionalidade</a></small>
+            
+           
+            <hr>
+
+            <!--  A tag <font> foi utilizada no HTML 4, não sendo mais compatível com HTML 5-->
+                
+
+            <p> Esse foi um exercício da dio.me, estou Aprendendo HTML, algumas referencias sobre as tags foram retiradas do site:<a href="https://www.w3schools.com/">https://www.w3schools.com/</a>. Muito Obrigado por ter lido e obtido conhecimento. </p>
+    </body>
+
+</html> 
